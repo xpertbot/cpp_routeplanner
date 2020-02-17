@@ -44,7 +44,6 @@ void RoutePlanner::AddNeighbors(RouteModel::Node *current_node) {
         
         open_list.push_back(neighbor);
         neighbor->visited = true;
-        open_list.push_back(neighbor);
     }
 }
 
